@@ -1,0 +1,77 @@
+Information from Benchling about Bioinformatics: 
+
+https://benchling.com/s/etr-WwlgsOmDstG1si2PBqzd
+
+(Text form): 
+
+BioInformatics: Introduction 
+
+Wikipedia website: https://en.wikipedia.org/wiki/Bioinformatics
+
+General defintiion (from Wikipedia): 
+
+"A field that develops methods and software tools for understanding biological data. As an interdisciplinary field of science, bioinformatics combines computer science, statistics, mathematics, and engineering to analyze and interpret biological data. Bioinformatics has been used for in silico analyses of biological queries using mathematical and statistical techniques." 
+
+Broken down, BioInformatics basically divides up the inter-discplinary field into 3 main spheres: 
+(written out verbatim due to small text shown in the diagram) 
+
+Computer Science: 
+
+Sequence Alignment 
+Needleman-Wunsch Algorithm (for optimal sequence alignment) / edit distance 
+Machine Learning / Optimal Matching 
+Throughput / Systems 
+Databases / DNA querying 
+Programming (software) 
+
+Engineering: 
+
+Electrical and Computer Engineering
+Circuitry / Systems 
+Biological / Molecular Engineering
+DAMP lab / WET lab 
+Genomics 
+Evolutionary Biology 
+
+Statistics / Mathematics: 
+
+Computational Analysis 
+Statistics 
+Real Analysis 
+Image Analysis 
+Series + Sequences 
+Vector Imaging / Linear Algebra 
+Multi-dimensional (3D) processing 
+Inference Analysis 
+
+... and many, many more applications! 
+
+
+
+(https://en.wikipedia.org/wiki/Bioinformatics). 
+
+General Applications regards to CILSE research (from computing):
+
+- sequence alignment (Needleman-Wunsh Algorithm / Optimal Matching) 
+Uses: determine accuracy of a matching, determine the penalty for gaps / mismatches (transformations and mutations) within two or more unique DNA sequences, determine the edit distance between nucleotides of the DNA sequences, and application to genomics / BLAST sequencing
+- Machine Learning
+Uses: determine how accurate / precise an algorithm is used to match DNA sequences / genetic inference of the DNA / classification learning / BLAST sequencing 
+- Throughput / Systems:
+Uses: Amdahl's (to determine which computing system can compute the result faster, comparison within distributed systems for biological processes),  image resolution processing, genomics 
+- Databases / DNA querying: 
+Uses: MoClo computing, Alignment Verification (to determine if user input is valid or not), hierarchy of DNA sequences, SQL / Mongo DNA querying (as used in Clotho UI and Living Computing Project's Clotho work) 
+
+- Programming Software (divided into software and hardware components): 
+
+
+Algorithm for Sequence Alignment (Needleman-Wunsch): 
+
+Link(s): 
+https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm (general definition) 
+
+https://blast.ncbi.nlm.nih.gov/Blast.cgi?
+PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_PROG_DEF=blastn&BLAST_SPEC=GlobalAln&LINK_LOC=BlastHomeLink (BLAST sequencing site) 
+
+https://stackoverflow.com/questions/40615299/how-does-the-needleman-wunsch-algorithm-compare-to-brute-force (important question regards to tradeoffs of dynamic programming or brute force implementations) 
+
+** later to be proved via correctness and pseudocode ** (separate paper) 
